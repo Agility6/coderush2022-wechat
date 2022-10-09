@@ -1,0 +1,1 @@
+<view class="farther data-v-0ea650d5"><picker class="son data-v-0ea650d5" mode="selector" range="{{[1,2,3]}}"><text class="one data-v-0ea650d5">1</text><view class="two_far data-v-0ea650d5"><text class="two data-v-0ea650d5">2</text></view></picker></view>

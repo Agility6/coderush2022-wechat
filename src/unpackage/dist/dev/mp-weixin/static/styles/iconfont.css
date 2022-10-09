@@ -1,0 +1,76 @@
+@font-face {font-family: "iconfont";
+  src: url('~@/static/styles/iconfont.ttf'); 
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-share:before {
+  content: "\e764";
+}
+
+.icon-arrow-right:before {
+  content: "\e743";
+}
+
+.icon-arrow-up:before {
+  content: "\e744";
+}
+
+.icon-ashbin:before {
+  content: "\e745";
+}
+
+.icon-folder:before {
+  content: "\e751";
+}
+
+.icon-feeds:before {
+  content: "\e752";
+}
+
+.icon-history:before {
+  content: "\e753";
+}
+
+.icon-collection:before {
+  content: "\e79d";
+}
+
+.icon-collection-fill:before {
+  content: "\e79e";
+}
+
+.icon-zhanghucaozuo:before {
+  content: "\e7c9";
+}
+
+.icon-icon_GPS:before {
+  content: "\eb95";
+}
+
+.icon-arrow-down:before {
+  content: "\e7b2";
+}
+
+.icon-icon_search:before {
+  content: "\eb9c";
+}
+
+.icon-icon_statistics:before {
+  content: "\eb9f";
+}
+
+.icon-data:before {
+  content: "\e602";
+}
+
+.icon-hot-fill:before {
+  content: "\e781";
+}
+

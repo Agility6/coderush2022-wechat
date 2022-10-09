@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/analysis/analysis",
+    "pages/message/message",
+    "pages/my/my",
+    "pages/resumeAttachment/resumeAttachment",
+    "pages/resumeOnline/resumeOnline",
+    "pages/history/history",
+    "pages/collect/collect",
+    "pages/setting/setting",
+    "pages/filter/filter",
+    "pages/selectRegion/selectRegion",
+    "pages/posDetail/posDetail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#3a3cd7",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#515151",
+    "selectedColor": "#3a3cd7",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home-s.png",
+        "text": "招聘"
+      },
+      {
+        "pagePath": "pages/analysis/analysis",
+        "iconPath": "static/analysis.png",
+        "selectedIconPath": "static/analysis-s.png",
+        "text": "数据"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "iconPath": "static/message.png",
+        "selectedIconPath": "static/message-s.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/my.png",
+        "selectedIconPath": "static/my-s.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,26 @@
+@import url('~@/static/styles/iconfont.css');
+
+$theme-color: #3a3cd7;
+$actived-color: rgb(2, 155, 2);
+$back-color: #F8F8F8;
+$main-color: #515151;
+$middle-color: #7b7b7e;
+$shallow-color: #a9acac;
+$border-color: #f6f8f9;
+$circle-border-color: #dfe3e6;
+$salary-color: #e9512f;
+
+$title-size: 36rpx;
+$main-size: 32rpx;
+$middle-size: 28rpx;
+$small-size: 28rpx;
+
+view,text,swiper,swiper-item,image,navigator {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+image{
+    width: 100%;
+}

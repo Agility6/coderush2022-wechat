@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "职位详情",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "bottom": "/components/bottom/bottom"
+  }
+}

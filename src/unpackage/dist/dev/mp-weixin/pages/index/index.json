@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "top": "/components/top/top",
+    "position-list": "/components/positionList/positionList"
+  }
+}

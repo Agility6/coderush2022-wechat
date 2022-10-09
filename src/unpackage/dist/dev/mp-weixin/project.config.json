@@ -1,0 +1,80 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"nodeModules": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.9.2",
+	"appid": "wx411222612f28662d",
+	"projectname": "position-analysis",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"name": "my",
+					"query": "",
+					"id": 0,
+					"pathName": "pages/my/my"
+				},
+				{
+					"name": "index",
+					"query": "",
+					"id": 1,
+					"pathName": "pages/index/index"
+				},
+				{
+					"name": "filter",
+					"query": "",
+					"id": 2,
+					"pathName": "pages/filter/filter"
+				},
+				{
+					"name": "region",
+					"query": "",
+					"id": 3,
+					"pathName": "pages/selectRegion/selectRegion"
+				},
+				{
+					"name": "posDetail",
+					"query": "",
+					"id": 4,
+					"pathName": "pages/posDetail/posDetail"
+				}
+			]
+		}
+	}
+}

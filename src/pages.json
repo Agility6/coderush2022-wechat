@@ -1,0 +1,236 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/filter/filter",
+			"style": {
+				"navigationBarTitleText": "设置求职意向",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/selectRegion/selectRegion",
+			"style" : {
+				"navigationBarTitleText": "期望城市",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "pages/selectPosition/selectPosition",
+			"style" : {
+				"navigationBarTitleText": "按分类搜索",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path":"pages/message/message",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path":"pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarTextStyle": "white"
+			}
+		},
+        {
+            "path" : "pages/posDetail/posDetail",
+            "style" : {
+				"navigationBarTitleText": "职位详情",
+				"navigationBarTextStyle": "white"
+			}
+        }
+	],
+	"subPackages": [
+		{
+			"root": "analysis",
+			"name": "analysis",
+			"pages": [
+				{
+					"path" : "pages/analysis/analysis",
+					"style" : {
+						"navigationBarTitleText": "职位分析",
+						"navigationBarTextStyle": "white"
+					}
+				}
+			]
+		},
+		{
+			"root": "filter",
+			"name": "filter",
+			"pages": [
+				{
+					"path" : "pages/search/search",
+					"style" : {
+						"navigationBarTitleText": "搜索",
+						"navigationBarTextStyle": "black",
+						"navigationBarBackgroundColor": "#ffffff"
+					}
+				}
+			]
+		},
+		{
+			"root": "person",
+			"name": "person",
+			"pages": [
+				{
+					"path":"pages/resumeAttachment/resumeAttachment",
+					"style": {
+						"navigationBarTitleText": "附件简历",
+						"navigationBarTextStyle": "white"
+					}
+				},
+				{
+					"path":"pages/resumeOnline/resumeOnline",
+					"style": {
+						"navigationBarTitleText": "在线简历",
+						"navigationBarTextStyle": "white"
+					}
+				},
+				{
+					"path":"pages/history/history",
+					"style": {
+						"navigationBarTitleText": "投递记录",
+						"navigationBarTextStyle": "white"
+					}
+				},
+				{
+					"path":"pages/collect/collect",
+					"style": {
+						"navigationBarTitleText": "我的收藏",
+						"navigationBarTextStyle": "white"
+					}
+				},
+				{
+					"path":"pages/setting/setting",
+					"style": {
+						"navigationBarTitleText": "设置",
+						"navigationBarTextStyle": "white"
+					}
+				},
+				{
+					"path":"pages/editInfo/editInfo",
+					"style": {
+						"navigationBarTitleText": "编辑信息",
+						"navigationBarTextStyle": "white"
+					}
+				},
+				{
+					"path": "pages/avatar-cropper/avatar-cropper",
+					"style": {
+						"navigationBarTitleText": "头像裁剪",
+						"navigationBarBackgroundColor": "#000000"
+					}
+				},
+				{
+					"path": "pages/editEducation/editEducation",
+					"style": {
+						"navigationBarTitleText": "编辑学历信息",
+						"navigationBarTextStyle": "white"
+					}
+				},
+				{
+					"path": "pages/editProject/editProject",
+					"style": {
+						"navigationBarTitleText": "编辑项目经验",
+						"navigationBarTextStyle": "white"
+					}
+				}
+				
+			]
+		}
+	],
+	"preloadRule": {
+		"pages/index/index": {
+			"network": "all",
+			"packages": ["filter", "analysis"]
+		},
+		"pages/my/my": {
+			"network": "all",
+			"packages": ["person"]
+		}
+	},
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#3a3cd7",
+		"usingComponents": {
+			"mp-slideview":"/wxcomponents/slideview/slideview",
+			"f2": "/wxcomponents/f2/index"
+		},
+		"onReachBottomDistance": 200
+	},
+	"tabBar": {
+		"color":"#515151",
+		"selectedColor":"#3a3cd7",
+		"borderStyle": "white",
+		"list": [
+			{
+				"pagePath":"pages/index/index",
+				"iconPath":"static/home.png",
+				"selectedIconPath":"static/home-s.png",
+				"text":"首页"
+			},
+			{
+				"pagePath":"pages/message/message",
+				"iconPath":"static/message.png",
+				"selectedIconPath":"static/message-s.png",
+				"text":"消息"
+			},
+			{
+				"pagePath":"pages/my/my",
+				"iconPath":"static/my.png",
+				"selectedIconPath":"static/my-s.png",
+				"text":"我的"
+			}
+		]
+	},
+	"condition" : { 
+		"current": 0, 
+		"list": [
+			{
+				"name": "index", 
+				"path":"pages/index/index", 
+				"query": "" 
+			},
+			{
+				"name": "search", 
+				"path":"filter/pages/search/search",
+				"query": ""
+			},
+			{
+				"name": "selectPos", 
+				"path":"filter/pages/selectPosition/selectPosition",
+				"query": ""
+			},
+			{
+				"name": "analysis", 
+				"path":"analysis/pages/analysis/analysis",
+				"query": ""
+			},
+			{
+				"name": "posDetail", 
+				"path":"pages/posDetail/posDetail",
+				"query": "pid=6778599"
+			},
+			{
+				"name": "editInfo", 
+				"path":"person/pages/editInfo/editInfo",
+				"query": ""
+			},
+			{
+				"name": "message", 
+				"path":"pages/message/message",
+				"query": ""
+			}
+		]
+	}
+	
+}

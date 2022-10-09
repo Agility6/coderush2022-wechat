@@ -1,0 +1,1 @@
+<view class="analysis"><f2 class="f2-chart" vue-id="1076b3c0-1" onInit="onInitChart" bind:__l="__l"></f2></view>

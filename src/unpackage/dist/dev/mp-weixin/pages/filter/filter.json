@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "设置求职意向",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "salary-picker": "/components/salaryPicker/salaryPicker"
+  }
+}
