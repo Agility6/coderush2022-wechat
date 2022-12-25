@@ -45,3 +45,5 @@ npm install
 ```
 npm run serve:mp-weixin
 ```
+
+> 有问题请联系agility6@163.com
